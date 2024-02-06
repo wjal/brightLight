@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&display=swap');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url('../public/pixlr-image-generator-329313f7-628c-4e1a-bc56-0e5e193daca3.png');
+  height: 1500px; /* You must set a specified height */
+  padding:   0px 0px 10px 0px;
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.navbar {
+  position: sticky; top: 0;
+  background-color: #282c34;
+  overflow: hidden;
+  height: 10vh;
+  min-height: 85px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: white;
+  z-index: 9999;
+}
+
+
+.navbar-menu {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.video {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 40%;
+  max-width: 1080px;
+  min-width: 500px;
+  height: 33%;
+  border-radius: 20px;
+}
+
+.logo {
+  height: 95%;
+  min-height: 90%;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 40%;
+  max-width: 1080px;
+  min-width: 500px;
+  height: 20%;
+  border-radius: 20px;
+}
+
+.menu-button{
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size:  1em;
+  font-family: 'Open Sans', sans-serif;}
