@@ -46,6 +46,8 @@
   font-size: 1.5rem;
   color: white;
   z-index: 9999;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.5), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 
@@ -77,6 +79,7 @@
   min-width: 500px;
   height: 33%;
   border-radius: 20px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.5), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
@@ -104,6 +107,8 @@
   min-width: 500px;
   height: 20%;
   border-radius: 20px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.5), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+  ;
 }
 
 .menu-button{
