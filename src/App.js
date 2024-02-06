@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Video from './components/Video';
 import Section from './components/Section';
 import { useRef, forwardRef } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
 
@@ -65,7 +66,7 @@ const aboutClick = () => {
     });
   }
 
-
+  
 
   return (
     <div className="App">

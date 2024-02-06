@@ -13,13 +13,6 @@
 }
 
 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -47,8 +40,9 @@
   color: white;
   z-index: 9999;
   box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.5), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
+
+
 
 
 .navbar-menu {
@@ -58,6 +52,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  font-size: 1rem;
 }
 
 .video {
@@ -81,6 +76,7 @@
   border-radius: 20px;
   box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.5), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 .logo {
   height: 95%;
@@ -111,9 +107,24 @@
   ;
 }
 
+
+
 .menu-button{
   background-color: transparent;
   color: white;
   border: none;
   font-size:  1em;
   font-family: 'Open Sans', sans-serif;}
+  
+  
+
+
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
