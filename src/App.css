@@ -13,7 +13,8 @@
     width: 100%;
   }
   .navbar {
-    position: sticky; top: 0;
+    position: fixed; 
+    top: 0;
     background-color: #282c34;
     overflow: hidden;
     height: 10vh;
@@ -70,6 +71,15 @@
     justify-content: space-around;
     font-size: .8rem;
   }
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
 }
 @media only screen and (max-width: 600px)  {
   .App {
@@ -85,7 +95,8 @@
     width: 100%;
   }
   .navbar {
-    position: sticky; top: 0;
+    position: fixed; 
+    top: 0;
     background-color: #282c34;
     overflow: hidden;
     height: 10vh;
@@ -141,6 +152,15 @@
     justify-content: space-around;
     font-size: .8rem;
   }
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
 }
 
 
@@ -158,6 +178,7 @@
 
 @media only screen and (min-width: 1000px){
   .App {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,7 +192,8 @@
   }
   
 .navbar {
-  position: sticky; top: 0;
+  position: fixed;
+  top: 0;
   background-color: #282c34;
   overflow: hidden;
   height: 10vh;
@@ -185,7 +207,6 @@
   color: white;
   z-index: 9999;
   box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.5), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 
@@ -224,6 +245,7 @@
   height: 95%;
   min-height: 90%;
 }
+
 .wrapper {
   height: 100%;
   width: 100%;
@@ -231,7 +253,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  
+  margin-top: 100px;
 }
 
 .section-wrapper {
